@@ -28,7 +28,7 @@ app.use(express.json());
 app.use("/images", express.static(path.join(__dirname, "/images")));
 app.use(
   cors({
-    origin: ["https://blogadmindashboard.netlify.app", "http://localhost:5174"],
+    origin: ["https://blogadmindashboard.netlify.app", "http://localhost:5173"],
     credentials: true,
   })
 );
